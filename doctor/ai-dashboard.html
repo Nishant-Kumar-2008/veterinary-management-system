@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Doctor Dashboard</title>
+
+    <link rel="stylesheet" href="ai-style.css" />
+  </head>
+
+  <body>
+    <div class="doctordashboard">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="logo">Veterinary Management System</div>
+
+        <div class="nav-links">
+          <a href="#" class="active">Dashboard</a>
+          <a href="#">Today's Appointments</a>
+          <a href="#">Patients</a>
+          <a href="#">Medical Records</a>
+          <a href="#">Profile</a>
+          <a href="#">Logout</a>
+        </div>
+      </nav>
+
+      <!-- Main Dashboard -->
+      <main class="dashboard-content">
+        <!-- Welcome Section -->
+        <section class="welcome-section">
+          <div class="welcome-text">
+            <h1>Good Morning, Dr. Nishant</h1>
+            <p>Veterinary Doctor</p>
+          </div>
+
+          <div class="doctor-profile">
+            <div class="doctor-avatar">NK</div>
+
+            <div>
+              <h3>Dr. Nishant</h3>
+              <p>Veterinary Doctor</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Summary Cards -->
+        <section class="summary-section">
+          <div class="summary-card">
+            <h3>Today's Appointments</h3>
+            <p class="summary-number">8</p>
+          </div>
+
+          <div class="summary-card">
+            <h3>Waiting Patients</h3>
+            <p class="summary-number">3</p>
+          </div>
+
+          <div class="summary-card">
+            <h3>Completed Today</h3>
+            <p class="summary-number">5</p>
+          </div>
+
+          <div class="summary-card">
+            <h3>Total Patients</h3>
+            <p class="summary-number">126</p>
+          </div>
+        </section>
+
+        <!-- Today's Appointments -->
+        <section class="appointments-section">
+          <div class="section-header">
+            <h2>Today's Appointments</h2>
+            <a href="#">View All</a>
+          </div>
+
+          <!-- Appointment 1 -->
+          <div class="appointment-card">
+            <div class="appointment-time">
+              <h3>10:00 AM</h3>
+            </div>
+
+            <div class="pet-info">
+              <h3>Bruno</h3>
+              <p>Dog • Labrador • 3 years • Male</p>
+            </div>
+
+            <div class="owner-info">
+              <p><strong>Owner:</strong> Rahul Sharma</p>
+              <p><strong>Reason:</strong> Vaccination</p>
+            </div>
+
+            <div class="appointment-status waiting">Waiting</div>
+
+            <button class="start-btn">START</button>
+          </div>
+
+          <!-- Appointment 2 -->
+          <div class="appointment-card">
+            <div class="appointment-time">
+              <h3>11:30 AM</h3>
+            </div>
+
+            <div class="pet-info">
+              <h3>Milo</h3>
+              <p>Cat • Persian • 2 years • Male</p>
+            </div>
+
+            <div class="owner-info">
+              <p><strong>Owner:</strong> Aman Verma</p>
+              <p><strong>Reason:</strong> Health Checkup</p>
+            </div>
+
+            <div class="appointment-status confirmed">Confirmed</div>
+
+            <button class="start-btn">START</button>
+          </div>
+
+          <!-- Appointment 3 -->
+          <div class="appointment-card">
+            <div class="appointment-time">
+              <h3>01:00 PM</h3>
+            </div>
+
+            <div class="pet-info">
+              <h3>Coco</h3>
+              <p>Dog • Beagle • 4 years • Female</p>
+            </div>
+
+            <div class="owner-info">
+              <p><strong>Owner:</strong> Priya Singh</p>
+              <p><strong>Reason:</strong> Fever</p>
+            </div>
+
+            <div class="appointment-status completed">Completed</div>
+
+            <button class="view-btn">VIEW</button>
+          </div>
+
+          <!-- Appointment 4 -->
+          <div class="appointment-card">
+            <div class="appointment-time">
+              <h3>03:30 PM</h3>
+            </div>
+
+            <div class="pet-info">
+              <h3>Rocky</h3>
+              <p>Dog • German Shepherd • 5 years • Male</p>
+            </div>
+
+            <div class="owner-info">
+              <p><strong>Owner:</strong> Arjun Mehta</p>
+              <p><strong>Reason:</strong> Injury Checkup</p>
+            </div>
+
+            <div class="appointment-status confirmed">Confirmed</div>
+
+            <button class="start-btn">START</button>
+          </div>
+        </section>
+
+        <!-- Quick Actions -->
+        <section class="quick-actions-section">
+          <div class="section-header">
+            <h2>Quick Actions</h2>
+          </div>
+
+          <div class="quick-actions">
+            <div class="action-card">
+              <h3>Today's Appointments</h3>
+              <p>View and manage today's appointments.</p>
+              <a href="#">Open</a>
+            </div>
+
+            <div class="action-card">
+              <h3>Patients</h3>
+              <p>View patient and pet information.</p>
+              <a href="#">Open</a>
+            </div>
+
+            <div class="action-card">
+              <h3>Medical Records</h3>
+              <p>View medical history and records.</p>
+              <a href="#">Open</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2026 Veterinary Management System</p>
+      </footer>
+    </div>
+  </body>
+</html>
