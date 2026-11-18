@@ -1,1 +1,0 @@
-# veterinary-management-system
